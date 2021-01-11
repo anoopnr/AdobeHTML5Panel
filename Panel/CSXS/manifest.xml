@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.samplepanel" ExtensionBundleVersion="1.0.0"	ExtensionBundleName="samplePanel"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ExtensionList>		
+            <Extension Id="com.nr.samplepanel" Version="1.0.0" />
+    </ExtensionList>
+    <ExecutionEnvironment>
+        <HostList>
+            <Host Name="AEFT" Version="[13.0,99.9]" />
+            <Host Name="ILST" Version="[18.0,99.9]"/>
+            <Host Name="IDSN" Version="[12.0,99.9]"/>
+            <Host Name="PHXS" Version="[14.0,30.0]"/>
+            <Host Name="PHSP" Version="[14.0,30.0]"/>
+            <Host Name="PPRO" Version="[9.0,20]" />
+            <Host Name="AME" Version="[9.0,20]"/>
+        </HostList>
+        <LocaleList>        
+            <Locale Code="All" />
+        </LocaleList>
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="6.0" />
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+    <DispatchInfoList>		
+        <Extension Id="com.nr.samplepanel">			
+            <DispatchInfo >
+                <Resources>
+                <MainPath>./ExtensionContent/samplepanel.html</MainPath>
+                <ScriptPath>./ExtensionContent/adobeapp.jsx</ScriptPath>
+                <CEFCommandLine>
+                    <Parameter>--enable-nodejs</Parameter>
+                </CEFCommandLine>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>Sample Panel 1.0.0</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>500</Height>
+                            <Width>700</Width>
+                        </Size>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>    
+    </DispatchInfoList>
+</ExtensionManifest>
