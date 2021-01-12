@@ -1,7 +1,7 @@
 # AdobeHTML5Panel
 Sample Panel For creating Extensions in Adobe Applications
 
-## Small Discription about Adobe HTML5 Panels
+## Small Description about Adobe HTML5 Panels
 Adobe applications like Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder supports HTML5 extesnion panels inside the desktop applications,
 just like the add ons in a browser. In the old versions these extensions were created in flex, but now in the creative cloud applications HTML5 panels are supported.
 You can get the full details of existing adobe addons from the [Adobe Exchange protal](https://exchange.adobe.com/creativecloud)\
