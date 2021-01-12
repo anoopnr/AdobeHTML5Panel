@@ -63,5 +63,8 @@ Install new panel using exmancmd /install newpanel.zxp
 ## Change Panel bundel Id, Version number, Menu name etc.
 **These changes are done as part of manifest.xml file**\
 ExtensionBundleId="com.nr.updatedpanel"\
-ExtensionBundleVersion="1.0.1"\
-<Menu>Updated Panel 1.0.1</Menu>
+ExtensionBundleVersion="1.0.1" \
+ExtensionBundleName="updatedPanel" \
+'<Extension Id="com.nr.updatedpanel" Version="1.0.1" />' \
+'<MainPath>./ExtensionContent/updatedpanel.html</MainPath>' \
+'<Menu>Updated Panel 1.0.1</Menu>'
