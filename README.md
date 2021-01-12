@@ -65,6 +65,6 @@ Install new panel using exmancmd /install newpanel.zxp
 ExtensionBundleId="com.nr.updatedpanel"\
 ExtensionBundleVersion="1.0.1" \
 ExtensionBundleName="updatedPanel" \
-'<Extension Id="com.nr.updatedpanel" Version="1.0.1" />' \
-'<MainPath>./ExtensionContent/updatedpanel.html</MainPath>' \
-'<Menu>Updated Panel 1.0.1</Menu>'
+`<Extension Id="com.nr.updatedpanel" Version="1.0.1" />` \
+`<MainPath>./ExtensionContent/updatedpanel.html</MainPath>` \
+`<Menu>Updated Panel 1.0.1</Menu>`
