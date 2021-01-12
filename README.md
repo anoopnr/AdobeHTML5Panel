@@ -26,3 +26,16 @@ To install the panel use, **exmancmd /install full_path_to_SAMPLE.zxp**
 To package a panel, get the ZXP signing tool from [this link](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD/4.1.103/win64)\
 Use the ZXPSignCMD tool to create a self signed certificate and then package the **Panel** folder to an zxp file using this certificate.\
 Follow the command from [this link](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)
+
+### Create a self signed certificate using
+**ZXPSignCmd.exe -selfsignedCert IN KL myCompany nameofCompany password sample.p12**
+
+### Sign the Panel folder using
+**ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com**
+
+### Install the newpanel.zxp using Excmancmd
+**exmancmd /install newpanel.zxp**
+
+### Remove the panel using Excmancmd
+**exmancmd /remove com.nr.samplepanel**
+
