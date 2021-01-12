@@ -33,7 +33,7 @@ Follow the command from [this link](https://wwwimages2.adobe.com/content/dam/aco
 ### Sign the Panel folder using
 **ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com**
 
-Close the Adobe app for which you are trying to install the panel for
+Close the Adobe apps for which you are trying to install the panel
 ### Install the newpanel.zxp using Excmancmd
 **exmancmd /install newpanel.zxp**
 
@@ -53,9 +53,9 @@ Make some change to the heading h1
 Delete the old newpanel.zxp\
 Sign and package the Panel folder again using the same certificate\
 ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com \
-Close the Adobe app for which you are trying to install the panel for\
+Close the Adobe apps for which you are trying to install the panel\
 Remove the existing panel using exmancmd /remove com.nr.samplepanel\
 Install new panel using exmancmd /install newpanel.zxp
 
 **Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**\
-**Congrats**
+**Hope your changes are working, Congrats!!!**
