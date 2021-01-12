@@ -52,7 +52,7 @@ Make some change to the heading h1
 
 Delete the old newpanel.zxp\
 Sign and package the Panel folder again using the same certificate\
-ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com\
+ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com
 Close the Adobe app for which you are trying to install the panel for\
 Remove the existing panel using exmancmd /remove com.nr.samplepanel\
 Install new panel using exmancmd /install newpanel.zxp
