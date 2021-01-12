@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.samplepanel" ExtensionBundleVersion="1.0.0"	ExtensionBundleName="samplePanel"
+<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.updatedpanel" ExtensionBundleVersion="1.0.1"	ExtensionBundleName="updatedPanel"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ExtensionList>		
-            <Extension Id="com.nr.samplepanel" Version="1.0.0" />
+            <Extension Id="com.nr.updatedpanel" Version="1.0.1" />
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
@@ -22,10 +22,10 @@
         </RequiredRuntimeList>
     </ExecutionEnvironment>
     <DispatchInfoList>		
-        <Extension Id="com.nr.samplepanel">			
+        <Extension Id="com.nr.updatedpanel">			
             <DispatchInfo >
                 <Resources>
-                <MainPath>./ExtensionContent/samplepanel.html</MainPath>
+                <MainPath>./ExtensionContent/updatedpanel.html</MainPath>
                 <ScriptPath>./ExtensionContent/adobeapp.jsx</ScriptPath>
                 <CEFCommandLine>
                     <Parameter>--enable-nodejs</Parameter>
@@ -36,7 +36,7 @@
                 </Lifecycle>
                 <UI>
                     <Type>Panel</Type>
-                    <Menu>Sample Panel 1.0.0</Menu>
+                    <Menu>Updated Panel 1.0.1</Menu>
                     <Geometry>
                         <Size>
                             <Height>500</Height>
