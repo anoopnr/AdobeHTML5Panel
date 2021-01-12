@@ -60,7 +60,7 @@ Install new panel using exmancmd /install newpanel.zxp
 **Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**\
 **Hope your changes are working, Congrats!!!**
 
-## Change Panel bundel Id, Version number, Menu name etc.
+## Change Panel bundle Id, Version number, Menu name etc.
 **These changes are done as part of manifest.xml file**\
 `<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.updatedpanel" ExtensionBundleVersion="1.0.1"	ExtensionBundleName="updatedPanel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">` \
 `<Extension Id="com.nr.updatedpanel" Version="1.0.1" />` \
