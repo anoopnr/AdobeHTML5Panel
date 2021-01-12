@@ -22,7 +22,7 @@ Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder
 
 In case you want to see how the CEP Sample panel will look after the installation, try to install the **SAMPLE.ZXP** package using Exmancmd Commandline tool from [here](https://partners.adobe.com/exchangeprogram/creativecloud/support/exman-com-line-tool.html)\
 To install the panel use, **exmancmd /install full_path_to_SAMPLE.zxp**
-![Panel screenshot](sample panel ss1.jpg)
+![Screenshot](sample panel ss1.jpg)
 
 To package a panel, get the ZXP signing tool from [this link](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD/4.1.103/win64)\
 Use the ZXPSignCMD tool to create a self signed certificate and then package the **Panel** folder to an zxp file using this certificate.\
