@@ -13,11 +13,16 @@ Get the complete details adout the CEP from this [link](https://github.com/Adobe
 ## How to create a sample extension panel for Adobe Applications
 In this repository we have added the initial wireframe needed to create a sample panel for
 Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder
-Clone the repository using 
-### git clone https://github.com/anoopnr/AdobeHTML5Panel.git
 
-**SAMPLE.ZXP** is the sample panel installation package, like an exe in case of an application
-**Panel** folder contains the extension related files.
-**CSXS** contains the configuration file manifest.xml,
-**ExtensionContent** have the panel HTML UI, Javascript, CSS and the CSInterface library which helps to execute the application level scripts in the Application DOM from the HTML DOM.
-**.debug** file is used to configure the debug settings for the panel
+**SAMPLE.ZXP** is the sample panel installation package, like an exe in case of an application\
+**Panel** folder contains the extension related files.\
+**CSXS** contains the configuration file manifest.xml,\
+**ExtensionContent** have the panel HTML UI, Javascript, CSS and the CSInterface library which helps to execute the application level scripts in the Application DOM from the HTML DOM.\
+**.debug** file is used to configure the debug settings for the panel\
+
+In case you want to see how the CEP Sample panel will look after the installation, try to install the **SAMPLE.ZXP** package using Exmancmd Commandline tool from [here](https://partners.adobe.com/exchangeprogram/creativecloud/support/exman-com-line-tool.html)\
+To install the panel use, **exmancmd /install full_path_to_SAMPLE.zxp**\
+
+To package a panel, get the ZXP signing tool from [this link](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD/4.1.103/win64)\
+Use the ZXPSignCMD tool to create a self signed certificate and then package the **Panel** folder to an zxp file using this certificate.\
+Follow the command from [this link](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)
