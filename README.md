@@ -1,7 +1,7 @@
 # AdobeHTML5Panel
 Sample Panel For creating Extensions in Adobe Applications
 
-## Small Description about Adobe HTML5 Panels
+## About Adobe HTML5 Panels
 Adobe applications like Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder supports HTML5 extesnion panels inside the desktop applications,
 just like the add ons in a browser. In the old versions these extensions were created in flex, but now in the creative cloud applications HTML5 panels are supported.
 You can get the full details of existing adobe addons from the [Adobe Exchange protal](https://exchange.adobe.com/creativecloud)\
@@ -33,9 +33,29 @@ Follow the command from [this link](https://wwwimages2.adobe.com/content/dam/aco
 ### Sign the Panel folder using
 **ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com**
 
+### Close the Adobe app for which you are trying to install the panel for
 ### Install the newpanel.zxp using Excmancmd
 **exmancmd /install newpanel.zxp**
+
+### Check the panel is installed in the adobe app using
+**exmancmd /list all**
+
+### To see the panel in action
+**Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**
 
 ### Remove the panel using Excmancmd
 **exmancmd /remove com.nr.samplepanel**
 
+## Make your first change in Extension panel
+Go to Panel\ExtensionContent\samplepanel.html\
+Make some change to the heading h1
+
+Delete the old newpanel.zxp\
+Sign and package the Panel folder again using the same certificate\
+ZXPSignCmd -sign AdobeHTML5Panel\Panel newpanel.zxp sample.p12 password -tsa http://timestamp.digicert.com\
+Close the Adobe app for which you are trying to install the panel for\
+Remove the existing panel using exmancmd /remove com.nr.samplepanel\
+Install new panel using exmancmd /install newpanel.zxp
+
+**Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**
+**Congrats**
