@@ -60,5 +60,4 @@ Install new panel using exmancmd /install newpanel.zxp
 **Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**\
 **Hope your changes are working, Congrats!!!**
 
-**For more panel changes get the code from updated_panel branch**\
-git clone -b updated_panel https://github.com/anoopnr/AdobeHTML5Panel.git
+
