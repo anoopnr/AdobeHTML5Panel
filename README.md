@@ -64,7 +64,7 @@ Install new panel using exmancmd /install newpanel.zxp
 **Hope your changes are working, Congrats!!!**
 
 # updated_panel branch changes
-### Now that we have a sample panel package, and we are able to see the panel in the client application, we can start to make the changes to make a custome panel for specific workflows ###
+### Now that we have a sample panel package, and we are able to see the panel in the client application, we can start to make the changes to make a custom panel for specific workflows ###
 ## Change Panel bundle Id, Version number, Menu name etc.
 **These changes are done as part of manifest.xml file**\
 `<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.updatedpanel" ExtensionBundleVersion="1.0.1"	ExtensionBundleName="updatedPanel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">` \
