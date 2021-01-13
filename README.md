@@ -13,7 +13,8 @@ Adobe calls this as Common Extensibility Platfrom (CEP), CEP is based on the Cho
 Combining the Chromium V8 engine and Nodejs CEP provides an easy way for web developers to start working on Adobe Extensions.\
 Get the complete details adout the CEP from this [link](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
-## How to create a sample extension panel for Adobe Applications
+## 1. sample_panel branch
+### How to create a sample extension panel for Adobe Applications
 In this repository we have added the initial wireframe needed to create a sample panel for
 Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder
 
@@ -49,7 +50,7 @@ Close the Adobe apps for which you are trying to install the panel
 ### Remove the panel using Excmancmd
 **exmancmd /remove com.nr.samplepanel**
 
-## Make your first change in Extension panel
+#### Make your first change in Extension panel
 Go to Panel\ExtensionContent\samplepanel.html\
 Make some change to the heading h1
 
@@ -63,9 +64,9 @@ Install new panel using exmancmd /install newpanel.zxp
 **Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**\
 **Hope your changes are working, Congrats!!!**
 
-# updated_panel branch changes
-### Now that we have a sample panel package, and we are able to see the panel in the client application, we can start to make the changes to make a custom panel for specific workflows ###
-## Change Panel bundle Id, Version number, Menu name etc.
+## 2. updated_panel branch
+**Now that we have a sample panel package, and we are able to see the panel in the client application, we can start to make the changes to make a custom panel for specific workflows**
+#### Change Panel bundle Id, Version number, Menu name etc.
 **These changes are done as part of manifest.xml file**\
 `<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.updatedpanel" ExtensionBundleVersion="1.0.1"	ExtensionBundleName="updatedPanel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">` \
 `<Extension Id="com.nr.updatedpanel" Version="1.0.1" />` \
