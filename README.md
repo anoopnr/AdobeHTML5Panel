@@ -1,6 +1,9 @@
 # AdobeHTML5Panel
 Sample Panel For creating Extensions in Adobe Applications
 
+**Use sample_panel branch for simple panel confiurations**
+**Use updated_panel branch for new panel confiuration changes**
+
 ## About Adobe HTML5 Panels
 Adobe applications like Premiere pro, After Effects, Indesign, Photoshop, Illustrator and Media encoder supports HTML5 extesnion panels inside the desktop applications,
 just like the add ons in a browser. In the old versions these extensions were created in flex, but now in the creative cloud applications HTML5 panels are supported.
@@ -60,4 +63,14 @@ Install new panel using exmancmd /install newpanel.zxp
 **Open the app, In Menus>>Windows>>Extenions>>Sample Panel 1.0.0**\
 **Hope your changes are working, Congrats!!!**
 
+# updated_panel branch changes
+## Change Panel bundle Id, Version number, Menu name etc.
+**These changes are done as part of manifest.xml file**\
+`<ExtensionManifest Version="6.0" ExtensionBundleId="com.nr.updatedpanel" ExtensionBundleVersion="1.0.1"	ExtensionBundleName="updatedPanel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">` \
+`<Extension Id="com.nr.updatedpanel" Version="1.0.1" />` \
+`<MainPath>./ExtensionContent/updatedpanel.html</MainPath>` \
+`<Menu>Updated Panel 1.0.1</Menu>`
+
+**For more panel changes get the code from updated_panel branch**\
+git clone -b updated_panel https://github.com/anoopnr/AdobeHTML5Panel.git
 
