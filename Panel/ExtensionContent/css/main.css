@@ -4,5 +4,9 @@ body{
     width: 700px;
 }
 h1{
-    color: red;
+    padding: 10px;
+}
+
+input[type=button]{
+    width: 250px;
 }
