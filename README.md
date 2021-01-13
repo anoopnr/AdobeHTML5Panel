@@ -1,7 +1,7 @@
 # AdobeHTML5Panel
 Sample Panel For creating Extensions in Adobe Applications
 
-**Use sample_panel branch for simple panel confiurations**
+**Use sample_panel branch for simple panel confiurations**\
 **Use updated_panel branch for new panel confiuration changes**
 
 ## About Adobe HTML5 Panels
