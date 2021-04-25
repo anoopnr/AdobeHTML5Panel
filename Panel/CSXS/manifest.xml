@@ -25,7 +25,7 @@
         <Extension Id="com.nr.aeftPanel">			
             <DispatchInfo >
                 <Resources>
-                <MainPath>./ExtensionContent/updatedpanel.html</MainPath>
+                <MainPath>./ExtensionContent/aftereffects.html</MainPath>
                 <ScriptPath>./ExtensionContent/adobeapp.jsx</ScriptPath>
                 <CEFCommandLine>
                     <Parameter>--enable-nodejs</Parameter>
