@@ -28,25 +28,7 @@ let loadJSX=()=> {
     try{
         let jsxFile="";        
         jsxCalssName=appName;
-        if(appName=="PPRO"){
-            jsxFile="ppro.jsx";
-        }
-        else if(appName=="AEFT"){
-            jsxFile="aeft.jsx";
-        }
-        else if(appName=="ILST"){
-            jsxFile="ilst.jsx";
-        }
-        else if(appName=="IDSN"){
-            jsxFile="idsn.jsx";
-        }
-        else if(appName=="PHXS"){
-            jsxFile="phxs.jsx";
-        }
-        else{
-            jsxCalssName="SAMPLE";
-            jsxFile="sample.jsx";
-        }
+        jsxFile="aeft.jsx";
         csInterface.evalScript('$._ext.evalFiles("' + jsxFolder + '","' + jsxFile + '")');
     }
     catch(ex){
@@ -56,7 +38,7 @@ let loadJSX=()=> {
 
 let evalScript=(script, callback)=> {
 	try{
-        script='$.'+jsxCalssName+'.'+script;
+        script='$.AEFT'+'.'+script;
 	    csInterface.evalScript(script, callback);
 	}
 	catch(ex){
@@ -82,5 +64,34 @@ let getActiveItemName=()=>{
     }
     catch(ex){
         alert("Exception in getProjectName"+ex);
+    }
+}
+
+let openSystemFolder=()=>{
+    try{
+        var file=cep.fs.showOpenDialog();
+        if(file.err==0 && file.data.length>0){
+            $("#txtFilePath").val(file.data[0]);
+        }
+        else{
+            alert("select a file");
+        }
+    }
+    catch(ex){
+        alert("Exception in openSystemFolder"+ex);
+    }
+}
+
+let importFileToAEFT=()=>{
+    try{
+        if($("#txtFilePath").val()!=""){
+            evalScript('importFile(\''+$("#txtFilePath").val()+'\')');
+        }
+        else{
+            alert("Please select a file");
+        }
+    }
+    catch(ex){
+        alert("Exception in importFileToAEFT"+ex);
     }
 }

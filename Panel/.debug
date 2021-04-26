@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtensionList>
-    <Extension Id="com.nr.updatedpanel">
+    <Extension Id="com.nr.aeftPanel">
         <HostList>
             <Host Name="AEFT" Port="7771"/>
-            <Host Name="ILST" Port="7772"/>
-            <Host Name="IDSN" Port="7773"/>
-            <Host Name="PHXS" Port="7774"/>
-            <Host Name="PHSP" Port="7775"/>
-            <Host Name="PPRO" Port="7776"/>
-            <Host Name="AME" Port="7777"/>
         </HostList>
     </Extension>
 </ExtensionList>

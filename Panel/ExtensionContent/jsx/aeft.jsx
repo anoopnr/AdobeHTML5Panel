@@ -1,4 +1,4 @@
-$.AEFT={
+﻿$.AEFT={
     getProjectName:function()
     {
         try
@@ -8,6 +8,15 @@ $.AEFT={
         catch(Error)
         {    
             return "Untitled";
+        }
+    },
+
+    importFile:function(filePath){
+        try{
+            var result=app.project.importFile(new ImportOptions(new File(filePath)));
+        }
+        catch(Error){
+            return "Error";
         }
     },
 }
