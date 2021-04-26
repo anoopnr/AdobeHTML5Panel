@@ -5,7 +5,7 @@ Sample Panel For creating Extensions in Adobe After effects
 Download the Exmancmd tool from\
 https://partners.adobe.com/exchangeprogram/creativecloud/support/exman-com-line-tool.html
 
-====================================================================
+
 ## For Windows
 Open the ExManCmd_win directory in comamnd line\
 Close AEFT if opened\
@@ -14,12 +14,15 @@ exmancmd /install aeft.zxp\
 Get the list of all installed panels using\
 exmancmd /list all\
 You will be able to see an entry\
+====================================================================
  Status                        Extension Name                         Version\
 =========  =======================================================  ==========\
 Enabled    com.nr.aeftPanel                                          1.0.2\
+======================================================================
+
 To remove the panel use
 exmancmd /remove com.nr.aeftPanel
-======================================================================
+
 
 ## For Mac
 Download the exmancmd commandline tool for mac \
@@ -30,8 +33,8 @@ list\
 remove \
 ./exmancmd --remove com.nr.aeftPanel\
 
-========================================================================
-Now open the After Effects
+
+## Now open the After Effects
 In Menus Go to Window>>Extensions 
 You will ba able to see AEFT Panel 1.0.2
 Click on that and panel will be poping out
@@ -43,6 +46,6 @@ Click on that and panel will be poping out
     4. Import the item to opened AEFT project
     5. Add the first item in the AEFT project to a new compostition named testComp
 
-===========================================================================
+
 
 
