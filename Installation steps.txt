@@ -1,7 +1,3 @@
-# After effects
-Sample Panel For creating Extensions in Adobe After effects
-
-## How to use it
 Download the Exmancmd tool from
 https://partners.adobe.com/exchangeprogram/creativecloud/support/exman-com-line-tool.html
 
@@ -45,5 +41,3 @@ Only few functionalities are added in this panel
     5. Add the first item in the AEFT project to a new compostition named testComp
 
 ===============================================================================================
-
-
