@@ -15,12 +15,12 @@ Get the list of all installed panels using\
 exmancmd /list all\
 You will be able to see an entry\
 
- Status                        Extension Name                         Version\
-=========  =======================================================  ==========\
-Enabled    com.nr.aeftPanel                                          1.0.2\
+Status    Extension Name     Version\
+=========  ==========        ========\
+Enabled    com.nr.aeftPanel  1.0.2\
 
 
-To remove the panel use
+To remove the panel use\
 exmancmd /remove com.nr.aeftPanel
 
 
@@ -35,9 +35,9 @@ remove \
 
 
 ## Now open the After Effects
-In Menus Go to Window>>Extensions 
-You will ba able to see AEFT Panel 1.0.2
-Click on that and panel will be poping out
+In Menus Go to Window>>Extensions \
+You will ba able to see AEFT Panel 1.0.2 \
+Click on that and panel will be poping out 
 
 ## Only few functionalities are added in this panel
     1. Get the platform name,
