@@ -9,23 +9,29 @@
     <link type="text/css" rel="Stylesheet" href="./css/main.css" />    
 </head>
 <body onload="pageLoad()">
-    <h1>Welcome to After Effects Panel</h1>
-    <table>
+    <table class="mainTable">
         <tr>
-            <td><input type="button" onclick="getPlatformName()" value="Get Platform Details"></td>
-            <td><input type="text" id="txtPlatform"></td>
+            <th colspan="2">Welcome to After Effects Panel</th>
         </tr>
         <tr>
-            <td><input type="button" onclick="getActiveItemName()" value="Get Active Item name"></td>
-            <td><input type="text" id="txtProjectName"></td>
+            <td><input class="button" type="button" onclick="getPlatformName()" value="Get Platform Details"></td>
+            <td><input class="inputData" type="text" id="txtPlatform"></td>
         </tr>
         <tr>
-            <td><input type="button" onclick="openSystemFolder()" value="Select a file from system"></td>
-            <td><input type="text" id="txtFilePath"></td>
+            <td><input class="button" type="button" onclick="getActiveItemName()" value="Get Active Item name"></td>
+            <td><input class="inputData" type="text" id="txtProjectName"></td>
         </tr>
         <tr>
+            <td><input class="button" type="button" onclick="openSystemFolder()" value="Select a file from system"></td>
+            <td><input class="inputData" type="text" id="txtFilePath"></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" onclick="importFileToAEFT()" value="Import File"></td>
             <td></td>
-            <td><input type="button" onclick="importFileToAEFT()" value="Import File"></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" onclick="addItemToNewComp()" value="Add First Item to Composition"></td>
+            <td></td>
         </tr>
     </table>
 </body>

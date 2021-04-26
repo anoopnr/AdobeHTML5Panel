@@ -1,8 +1,50 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:#404040;
     height: 500px;
-    width: 700px;
+    width: 98%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    overflow-y: hidden;
 }
-h1{
-    color: red;
+.mainTable{
+    color: #C3C8C9;
+    font-size: 13px;
+    width: 99%;
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.mainTable th{
+    padding: 5px;
+    background: linear-gradient(to bottom, #525252, #424242) repeat scroll 0 0 transparent;
+}
+
+.mainTable td{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.button{
+    width: 150px;
+    border-style: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0;
+    color: #C7C7C7;
+    cursor: pointer;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #4F4F4F 0%, #404040 100%) repeat scroll 0 0 transparent;
+    box-shadow: 1px 1px 1px #4e4e4e;
+}
+
+.inputData{
+    background: linear-gradient(to bottom, #4F4F4F 0%, #404040 100%) repeat scroll 0 0 transparent;
+    box-shadow: 1px 1px 1px #4e4e4e;
+    width:90%;
+    color: #C7C7C7;
+    padding: 2px 0px 2px 5px;
 }

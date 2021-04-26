@@ -95,3 +95,12 @@ let importFileToAEFT=()=>{
         alert("Exception in importFileToAEFT"+ex);
     }
 }
+
+let addItemToNewComp=()=>{
+    try{
+        evalScript('createComp()');
+    }
+    catch(ex){
+        alert("Exception in addItemToNewComp"+ex);
+    }
+}
