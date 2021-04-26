@@ -13,11 +13,11 @@ Use the following command to install the sample.zxp\
 exmancmd /install aeft.zxp\
 Get the list of all installed panels using\
 exmancmd /list all\
-You will be able to see an entry\
+You will be able to see an entry
 
 Status    Extension Name     Version\
 =========  ==========        ========\
-Enabled    com.nr.aeftPanel  1.0.2\
+Enabled    com.nr.aeftPanel  1.0.2
 
 
 To remove the panel use\
@@ -31,10 +31,10 @@ use following command to install the panel\
 list\
 ./exmancmd --list all\
 remove \
-./exmancmd --remove com.nr.aeftPanel\
+./exmancmd --remove com.nr.aeftPanel
 
 
-## Now open the After Effects
+Now open the After Effects
 In Menus Go to Window>>Extensions \
 You will ba able to see AEFT Panel 1.0.2 \
 Click on that and panel will be poping out 
