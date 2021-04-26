@@ -14,11 +14,11 @@ exmancmd /install aeft.zxp\
 Get the list of all installed panels using\
 exmancmd /list all\
 You will be able to see an entry\
-====================================================================
+
  Status                        Extension Name                         Version\
 =========  =======================================================  ==========\
 Enabled    com.nr.aeftPanel                                          1.0.2\
-======================================================================
+
 
 To remove the panel use
 exmancmd /remove com.nr.aeftPanel
